@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    cursor: context-menu;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-bottom-color: red;
+    border-right-color: red;
+    border-radius: 270px;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: Michroma;
+}
+
+h2:first-of-type {
+    margin-top: 1em;
+    font-family: Michroma;
+}
+
+h3 {
+    position: fixed;
+    bottom 5px;
+    right: 5px;
+    border-right-style: dotted;
+    border-right-color: red;
+    border-radius: 270px;
+    font-family: Michroma;
+}
+
+#sizePicker {
+    font-family: Michroma;
+    position: absolute;
+    left: 30px;
+}
+
+
+  #submit {
+  border-radius: 10px;
+}
+
+#colorPickerId {
+  font-family: Michroma;
+  position: absolute;
+  right: 30px;
+
+}
+
+#colorPicker {
+  border-radius: 10px;
+}
+
+table,
+tr,
+td {
+    border: 3px dotted black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+
+input[type=number] {
+    width: 4em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#pixel_canvas {
+  position: relative;
+  top: 220px;
+}
+
+#animacja {
+  width: 285px;
+  height: 200px;
+  animation-name: animacja;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes animacja {
+  from {background-color: #ff0000;}
+    to {background-color: #f2f2f2;}
+}

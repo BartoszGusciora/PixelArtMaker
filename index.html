@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ElMGsc's Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+<link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+</head>
+<body>
+    <h1>ElMGsc's Pixel Art Maker</h1>
+  <h2><u>Choose Grid Size</u><br>Wybierz wymiary siatki</h2><p>* max val 50</p>
+    <form id="sizePicker">
+        Grid Height/Wys. siatki:
+      <p><input type="number" id="input_height" name="height" min="1" value="10"></p>
+        Grid Width/Szer. siatki:
+      <p><input type="number" id="input_width" name="width" min="1" value="10"></p>
+        <input type="submit" id="submit">
+      </form>
+      <form id="colorPickerId">
+        <p><u>Pick A Color</u><br>Wybierz kolor</p>
+    <input type="color" id="colorPicker">
+      </form>
+
+  <h3><u>Design Canvas by<br>ElMGsc</u></h3>
+<table id="pixel_canvas">
+  <div id="animacja"></div>
+
+    <script src="designs.js"></script>
+</body>
+</html>
