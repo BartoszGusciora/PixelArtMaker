@@ -7,8 +7,8 @@ function makeGrid() {
 var canvas, cell, gridHeight, gridWidth, rows;
 
 	canvas = $('#pixel_canvas');
-	gridHeight =$('#input_height').val().max="50";
-	gridWidth = $('#input_width').val().max="50";
+	gridHeight =$('#input_height').val();
+	gridWidth = $('#input_width').val();
 
 	canvas.children().remove()
 
