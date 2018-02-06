@@ -10,8 +10,8 @@ h1 {
     margin: 0.2em;
     border-right-style: dotted;
     border-bottom-style: dotted;
-    border-bottom-color: red;
-    border-right-color: red;
+    border-bottom-color: #ff0000;
+    border-right-color: #ff0000;
     border-radius: 270px;
 }
 
@@ -30,7 +30,7 @@ h3 {
     bottom 5px;
     right: 5px;
     border-right-style: dotted;
-    border-right-color: red;
+    border-right-color: #ff0000;
     border-radius: 270px;
     font-family: Michroma;
 }
@@ -42,7 +42,7 @@ h3 {
 }
 
 
-  #submit {
+#submit {
   border-radius: 10px;
 }
 
@@ -50,7 +50,7 @@ h3 {
   font-family: Michroma;
   position: absolute;
   right: 30px;
-
+  
 }
 
 #colorPicker {
@@ -60,7 +60,7 @@ h3 {
 table,
 tr,
 td {
-    border: 3px dotted black;
+    border: 3px solid black;
 }
 
 table {
@@ -84,7 +84,6 @@ input[type=number] {
 
 #pixel_canvas {
   position: relative;
-  top: 220px;
 }
 
 #animacja {
@@ -93,6 +92,7 @@ input[type=number] {
   animation-name: animacja;
   animation-duration: 3s;
   animation-iteration-count: 1;
+  border-radius: 5px;
 }
 
 @keyframes animacja {
